@@ -1,44 +1,38 @@
-<mxfile host="app.diagrams.net" modified="2022-06-08T14:22:51.597Z" agent="5.0 (Windows)" etag="LAKmBowbMTA-5bIR0Jw8" version="19.0.2" type="github" pages="3">
+<mxfile host="app.diagrams.net" modified="2022-06-21T15:39:17.790Z" agent="5.0 (Windows)" etag="bZnQI3EVrn6KkCuAPd3J" version="19.0.2" type="github" pages="4">
   <diagram id="ofMoTpq7tcoI7RHlY2vW" name="Component Build Request">
-    <mxGraphModel dx="1718" dy="927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+    <mxGraphModel dx="2062" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="IHyHdzKsal6BjkSkR2M6-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="dIruq6iwi9foLsDt_e94-1" target="IHyHdzKsal6BjkSkR2M6-1">
+        <mxCell id="IHyHdzKsal6BjkSkR2M6-2" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="dIruq6iwi9foLsDt_e94-1" target="IHyHdzKsal6BjkSkR2M6-1" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="dIruq6iwi9foLsDt_e94-1" value="Requested Build of Component(s)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+        <mxCell id="dIruq6iwi9foLsDt_e94-1" value="Requested Build of Component(s)" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" parent="1" vertex="1">
           <mxGeometry x="40" y="40" width="120" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="IHyHdzKsal6BjkSkR2M6-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IHyHdzKsal6BjkSkR2M6-1" target="IHyHdzKsal6BjkSkR2M6-6">
+        <mxCell id="IHyHdzKsal6BjkSkR2M6-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IHyHdzKsal6BjkSkR2M6-1" target="IHyHdzKsal6BjkSkR2M6-6" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IHyHdzKsal6BjkSkR2M6-1" value="Execute Component Labelled Build Process" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=default;" vertex="1" parent="1">
+        <mxCell id="IHyHdzKsal6BjkSkR2M6-1" value="Execute Component Labelled Build Process" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;fontFamily=Helvetica;fontSize=12;fontColor=default;align=center;strokeColor=default;fillColor=default;" parent="1" vertex="1">
           <mxGeometry x="220" y="37.5" width="100" height="75" as="geometry" />
         </mxCell>
-        <mxCell id="IHyHdzKsal6BjkSkR2M6-3" value="&lt;div&gt;Jenkins Build&lt;/div&gt;&lt;div&gt;Outputs:&lt;br&gt;* binaries&lt;/div&gt;&lt;div&gt;* docker image&lt;/div&gt;&lt;div&gt;* git tags&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="IHyHdzKsal6BjkSkR2M6-3" value="&lt;div&gt;Jenkins Build&lt;/div&gt;&lt;div&gt;Outputs:&lt;br&gt;* binaries&lt;/div&gt;&lt;div&gt;* docker image&lt;/div&gt;&lt;div&gt;* git tags&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="220" y="140" width="100" height="100" as="geometry" />
         </mxCell>
-        <mxCell id="IHyHdzKsal6BjkSkR2M6-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="IHyHdzKsal6BjkSkR2M6-1" target="IHyHdzKsal6BjkSkR2M6-3">
+        <mxCell id="IHyHdzKsal6BjkSkR2M6-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="1" source="IHyHdzKsal6BjkSkR2M6-1" target="IHyHdzKsal6BjkSkR2M6-3" edge="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
             <mxPoint x="270" y="250" as="sourcePoint" />
             <mxPoint x="320" y="200" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="IHyHdzKsal6BjkSkR2M6-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="IHyHdzKsal6BjkSkR2M6-6" target="IHyHdzKsal6BjkSkR2M6-8">
+        <mxCell id="IHyHdzKsal6BjkSkR2M6-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="IHyHdzKsal6BjkSkR2M6-6" target="IHyHdzKsal6BjkSkR2M6-8" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="IHyHdzKsal6BjkSkR2M6-6" value="Update System Release Changelogs &amp;amp; Build Table" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="IHyHdzKsal6BjkSkR2M6-6" value="Update System Release Changelogs &amp;amp; Build Table" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="380" y="38.75" width="100" height="72.5" as="geometry" />
         </mxCell>
-        <mxCell id="IHyHdzKsal6BjkSkR2M6-8" value="Communicate Process Complete (Deployment, QA Starts)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+        <mxCell id="IHyHdzKsal6BjkSkR2M6-8" value="Communicate Process Complete (Deployment, QA Starts)" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="540" y="25" width="100" height="100" as="geometry" />
-        </mxCell>
-        <mxCell id="IHyHdzKsal6BjkSkR2M6-10" value="For the system release [&quot;UMB 2.3.4&quot;]&lt;br&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;For each active system release version [&quot;UMB 2.3.4 R01&quot;, &quot;UMB 2.3.4 R02&quot;]&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;For each configured component&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Identify last production release (tag ends with &#39;_Release&#39;)&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Create incremental build tables until hits last production release&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Sort and replace all version tables&lt;br&gt;&lt;/span&gt;&lt;/div&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="290" y="560" width="560" height="190" as="geometry" />
-        </mxCell>
-        <mxCell id="zm2dCDk04Y_aAP3SEQeE-2" value="&lt;div&gt;For the system release [&quot;UMB 2.3.4&quot;]&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;For each active system release version [&quot;UMB 2.3.4 R01&quot;, &quot;UMB 2.3.4 R02&quot;]&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;&quot;&gt;	&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;/span&gt;For each configured component&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Parse all existing tables&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;	&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;&quot;&gt;&lt;/span&gt;Identify the oldest incremental build version&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;	&lt;/span&gt;Generate reports until beyond oldest incremental build version&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;	&lt;/span&gt;Sort and replace all build version tables&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;align=left;verticalAlign=top;" vertex="1" parent="1">
-          <mxGeometry x="350" y="280" width="560" height="190" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
@@ -48,10 +42,48 @@
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="RNUDFDHIHLm7HqGa-CTe-5" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="H_bvVq_vCoyPZ6PWlMO8-1" target="RNUDFDHIHLm7HqGa-CTe-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="H_bvVq_vCoyPZ6PWlMO8-1" value="Product Ready for Release" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="40" y="40" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="RNUDFDHIHLm7HqGa-CTe-7" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RNUDFDHIHLm7HqGa-CTe-1" target="RNUDFDHIHLm7HqGa-CTe-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RNUDFDHIHLm7HqGa-CTe-1" value="Author SSRN and Changelogs" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RNUDFDHIHLm7HqGa-CTe-9" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RNUDFDHIHLm7HqGa-CTe-2" target="RNUDFDHIHLm7HqGa-CTe-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RNUDFDHIHLm7HqGa-CTe-2" value="Gate Review Meeting" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="490" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RNUDFDHIHLm7HqGa-CTe-3" value="Finalize SSRN Release" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="640" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="RNUDFDHIHLm7HqGa-CTe-4" value="&lt;div&gt;Finalize System Release&lt;/div&gt;&lt;div align=&quot;left&quot;&gt;&lt;ul&gt;&lt;li&gt;Finalize artifacts as production released&lt;/li&gt;&lt;li&gt;Finalize Source control&lt;br&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;" vertex="1" parent="1">
+          <mxGeometry x="640" y="120" width="180" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="RNUDFDHIHLm7HqGa-CTe-8" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="RNUDFDHIHLm7HqGa-CTe-6" target="RNUDFDHIHLm7HqGa-CTe-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="RNUDFDHIHLm7HqGa-CTe-6" value="Submit Final Test Report" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
   <diagram id="ZWqO9chWjskBbKHxt39e" name="Finalize System Release">
+    <mxGraphModel dx="2062" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="5QBTFgLuT3p0y8aLNwyx" name="Create New Project System Release">
     <mxGraphModel dx="2062" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
       <root>
         <mxCell id="0" />
