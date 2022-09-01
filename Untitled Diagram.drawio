@@ -1,1 +1,19 @@
-<mxfile host="app.diagrams.net" modified="2022-09-01T16:13:41.829Z" agent="5.0 (Windows)" version="20.0.3" etag="fIH9kQr6qF9cWh7gmbzw" type="github"><diagram id="iBrMjuTJeeqdpPhKc0sX">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-01T16:31:20.087Z" agent="5.0 (Windows)" etag="5nNZdGt_Jo65Xrg6pfmd" version="20.0.3" type="github">
+  <diagram id="iBrMjuTJeeqdpPhKc0sX" name="Page-1">
+    <mxGraphModel dx="2062" dy="1112" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1100" pageHeight="850" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="xiIP2kTTS7HBBAWP1FZX-1" value="Feature and Fix Development" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="80" y="80" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xiIP2kTTS7HBBAWP1FZX-2" value="Feature Complete" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="80" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="xiIP2kTTS7HBBAWP1FZX-3" value="Feature Complete" style="shape=step;perimeter=stepPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="360" y="80" width="160" height="80" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
